@@ -38,6 +38,21 @@ Dont la valeur n'est pas mesurable.
 + **Étendue** : Écart entre le min et le max
 + **Variance** : La moyenne des carrés des écarts à la moyenne
 + **Écart-type** : La racine carrée positive de la variance
++ **Asymétrie** : Décalage de la courbe normale par rapport à la moyenne. 
+  + Positif: Moyenne > Médiane
+  + Négatif : Moyenne < Médiane
++ **Moment d'ordre**: 
+  + Ordre 1 : (x1^1, x2^1,x3^1)/n
+  + Ordre 2 : (x1^2, x2^2,x3^2)/n, etc.
++ **Applatissement des données** : Kurtosis
+  
+### Préparation des données
+#### Données aberrantes
+Pour détecter des valeurs aberrantes, 
++ moyenne de la variable -/+ ponderation (entre 1.5 et 3) * ecart-type
+
+#### Données manquantes
+Soit on retire, soit on interpole les données
 
 ## Rôle du scientfiques de données
 + Produire des méthodes automatisées de tri

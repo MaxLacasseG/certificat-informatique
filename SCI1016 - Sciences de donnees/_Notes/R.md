@@ -59,3 +59,5 @@ La commade `struc` permet d'afficher la structure d'un data frame et les niveaux
 + Variance `var()`
 + Écart-type `sd()`
 + Étendue `range()`
++ Asymétrie de la courbe `skewness()`.  
++ Moment d'ordre `moment(variable, ordre=1,centre=T)`. Le package Moment permet de calculer le skewness, le kurtosis et les moments
