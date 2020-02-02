@@ -48,3 +48,14 @@ La commade `struc` permet d'afficher la structure d'un data frame et les niveaux
 
 ---
 ## Manipulation des données
+
+---
+## Formules statistiques
++ Minimum `min()`
++ Maximum `max()`
++ Moyenne `mean()`
++ Médiane `median()`
++ Quartiles `quantile()`
++ Variance `var()`
++ Écart-type `sd()`
++ Étendue `range()`
