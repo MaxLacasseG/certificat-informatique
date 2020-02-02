@@ -1,0 +1,3 @@
+setwd("~/Documents/01_Personnel/Bac/_Certificat Informatique/Cours/SCI1016 - Sciences de donnees/Module 2 - Introd R/DonneesTest")
+mydata <- read.table("Icecream.txt", header = T, sep=",")
+mydata

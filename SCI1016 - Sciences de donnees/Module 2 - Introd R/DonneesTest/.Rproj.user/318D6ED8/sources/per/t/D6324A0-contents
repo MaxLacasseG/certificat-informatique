@@ -1,0 +1,16 @@
+print(2^5)
+
+stock.prices <- c(23,27,23,21,34)
+days <- c("Mon", "Tue","Wed","Thu","Fri")
+
+names(stock.prices) <- days
+
+print(stock.prices)
+print(mean(stock.prices))
+
+over.23 <- stock.prices > 23
+print(stock.prices[over.23])
+
+max.price <- stock.prices == max(stock.prices)
+print(stock.prices[max.price])
+help(structure)
